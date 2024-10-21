@@ -1,0 +1,101 @@
+INFO:root:Inicio de la ejecución
+INFO:root:Inicio de la ejecución
+INFO:root:Inicio de la ejecución
+INFO:root:Inicio de la ejecución
+INFO:root:Inicio de la ejecución
+INFO:root:Inicio de la ejecución
+INFO:root:Inicio de la ejecución
+INFO:root:Inicio de la ejecución
+INFO:root:Ejecución completada
+Tiempo total de ejecución con 24 nucleos: 37.64minutos
+T_term: 0.05 18.2085574060542
+INFO:root:Ejecución completada
+Tiempo total de ejecución con 24 nucleos: 31.12minutos
+T_term: 0.05 21.185992885897917
+INFO:root:Inicio de la ejecución
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/home/quantic_user/Desktop/Ana/Eff_Q/Li-Yb/0.05/0.05_better.py", line 99, in run_simulation
+    sol = solve_ivp(system, (ti, tf), y0, t_eval=np.linspace(ti, tf, dt), method='RK45',
+  File "/home/quantic_user/.local/lib/python3.10/site-packages/scipy/integrate/_ivp/ivp.py", line 580, in solve_ivp
+    g = [event(t0, y0) for event in events]
+  File "/home/quantic_user/.local/lib/python3.10/site-packages/scipy/integrate/_ivp/ivp.py", line 580, in <listcomp>
+    g = [event(t0, y0) for event in events]
+  File "/home/quantic_user/.local/lib/python3.10/site-packages/scipy/integrate/_ivp/ivp.py", line 578, in <lambda>
+    events = [lambda t, x, event=event: event(t, x, *args)
+TypeError: event_condition() takes 2 positional arguments but 9 were given
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/quantic_user/Desktop/Ana/Eff_Q/Li-Yb/0.05/0.05_better.py", line 126, in <module>
+    all_results = pool.map(run_simulation, range(num_solution))
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+TypeError: event_condition() takes 2 positional arguments but 9 were given
+INFO:root:Inicio de la ejecución
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/home/quantic_user/Desktop/Ana/Eff_Q/Li-Yb/0.05/0.05_better.py", line 99, in run_simulation
+    sol = solve_ivp(system, (ti, tf), y0, t_eval=np.linspace(ti, tf, dt), method='RK45',
+  File "/home/quantic_user/.local/lib/python3.10/site-packages/scipy/integrate/_ivp/ivp.py", line 580, in solve_ivp
+    g = [event(t0, y0) for event in events]
+  File "/home/quantic_user/.local/lib/python3.10/site-packages/scipy/integrate/_ivp/ivp.py", line 580, in <listcomp>
+    g = [event(t0, y0) for event in events]
+  File "/home/quantic_user/.local/lib/python3.10/site-packages/scipy/integrate/_ivp/ivp.py", line 578, in <lambda>
+    events = [lambda t, x, event=event: event(t, x, *args)
+TypeError: event_condition() takes 2 positional arguments but 9 were given
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/quantic_user/Desktop/Ana/Eff_Q/Li-Yb/0.05/0.05_better.py", line 126, in <module>
+    all_results = pool.map(run_simulation, range(num_solution))
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+TypeError: event_condition() takes 2 positional arguments but 9 were given
+INFO:root:Inicio de la ejecución
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/home/quantic_user/Desktop/Ana/Eff_Q/Li-Yb/0.05/0.05_better.py", line 99, in run_simulation
+    sol = solve_ivp(system, (ti, tf), y0, t_eval=np.linspace(ti, tf, dt), method='RK45',
+  File "/home/quantic_user/.local/lib/python3.10/site-packages/scipy/integrate/_ivp/ivp.py", line 580, in solve_ivp
+    g = [event(t0, y0) for event in events]
+  File "/home/quantic_user/.local/lib/python3.10/site-packages/scipy/integrate/_ivp/ivp.py", line 580, in <listcomp>
+    g = [event(t0, y0) for event in events]
+  File "/home/quantic_user/.local/lib/python3.10/site-packages/scipy/integrate/_ivp/ivp.py", line 578, in <lambda>
+    events = [lambda t, x, event=event: event(t, x, *args)
+TypeError: event_condition() takes 2 positional arguments but 9 were given
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/quantic_user/Desktop/Ana/Eff_Q/Li-Yb/0.05/0.05_better.py", line 126, in <module>
+    all_results = pool.map(run_simulation, range(num_solution))
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+TypeError: event_condition() takes 2 positional arguments but 9 were given

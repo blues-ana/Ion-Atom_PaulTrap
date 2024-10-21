@@ -1,0 +1,9 @@
+  File "/home/quantic_user/Desktop/Ana/Eff_Q/Dy-Yb/0.25/0.25.py", line 190
+    ionvx_sol=result[4he characteristic energy scale for ion-atom systems is at least
+                     ^
+SyntaxError: invalid decimal literal
+  File "/home/quantic_user/Desktop/Ana/Eff_Q/Dy-Yb/0.25/0.25.py", line 190
+    ionvx_sol=result[4he characteristic energy scale for ion-atom systems is at least
+                     ^
+SyntaxError: invalid decimal literal
+INFO:root:Inicio de la ejecución

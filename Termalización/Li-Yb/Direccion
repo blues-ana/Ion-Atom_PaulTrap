@@ -1,0 +1,4 @@
+#Para las correciones 1 y 2
+cd /home/quantic_user/Desktop/Ana/Termalización/Li-Yb/0.05 && nohup python3 0.05.py &
+cd /home/quantic_user/Desktop/Ana/Termalización/Li-Yb/0.10 && nohup python3 0.10.py &
+

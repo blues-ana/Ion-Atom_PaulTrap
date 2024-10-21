@@ -1,0 +1,20 @@
+cd /home/quantic_user/Desktop/Ana/Li-Yb/0.1 && nohup python3 0.1.py &
+
+/home/quantic_user/Desktop/Ana/Eff_Q/Li-Yb/0.35
+
+cd /home/quantic_user/Desktop/Ana/Eff_Q/Dy-Yb/0.05 && nohup python3 0.05.py &
+
+cd /home/quantic_user/Desktop/Ana/Eff_Q/Dy-Yb/0.1 && nohup python3 0.1.py &
+
+cd /home/quantic_user/Desktop/Ana/Eff_Q/Dy-Yb/0.15 && nohup python3 0.15.py &
+
+cd /home/quantic_user/Desktop/Ana/Eff_Q/Dy-Yb/0.20 && nohup python3 0.20.py &
+
+
+cd /home/quantic_user/Desktop/Ana/Eff_Q/Dy-Yb/0.20 && nohup python3 0.20.py &
+
+cd /home/quantic_user/Desktop/Ana/Eff_Q/Dy-Yb/0.25 && nohup python3 0.25.py &
+
+
+
+
