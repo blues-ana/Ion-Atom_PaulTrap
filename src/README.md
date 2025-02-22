@@ -1,0 +1,1 @@
+Simulation of ion-atom-atom collisions in a Paul trap by solving the equations of motion for the three particles. The program uses Python’s scipy library for solving the differential equations and is parallelized using Python’s multiprocessing module to run on multiple CPU cores.
